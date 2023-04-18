@@ -7,12 +7,12 @@ import org.testng.annotations.Test;
 import com.pomwithpagefactoryusingparametersnew.Constants.Constants;
 import com.pomwithpagefactoryusingparametersnew.Pages.LoginPage;
 
-public class LoginTest extends TestBase {
+public class TestClass extends TestBase {
 
 	LoginPage obj;
 
 	@Parameters({"validusername","invalidpassword"})
-	@Test(priority=4)
+	@Test(priority=0)
 	public void verifyLoginwithValidUsernameandInvalidPassword(String username,String password) {
 
 		obj=new LoginPage(driver);
@@ -22,7 +22,7 @@ public class LoginTest extends TestBase {
 
 	}
 	@Parameters({"invalidusername","validpassword"})
-	@Test(priority=5)
+	@Test(priority=1)
 	public void verifyLoginwithInvalidUsernameandValidPassword(String username,String password) {
 
 		obj=new LoginPage(driver);
