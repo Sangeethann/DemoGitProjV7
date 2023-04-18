@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-05T20:27:12 AST" name="Suite" finished-at="2023-03-05T20:28:37 AST" duration-ms="84841">
+    <groups>
+    </groups>
+    <test started-at="2023-03-05T20:27:12 AST" name="ChromeTest" finished-at="2023-03-05T20:28:01 AST" duration-ms="49073">
+      <class name="com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d]" started-at="2023-03-05T20:27:12 AST" name="beforeTest" finished-at="2023-03-05T20:27:28 AST" duration-ms="15791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="verifyLoginwithValidUsernameandInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d]" started-at="2023-03-05T20:27:28 AST" name="verifyLoginwithValidUsernameandInvalidPassword" finished-at="2023-03-05T20:27:31 AST" duration-ms="2995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tuto123@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithValidUsernameandInvalidPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d]" started-at="2023-03-05T20:27:31 AST" name="afterMethod" finished-at="2023-03-05T20:27:32 AST" duration-ms="844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginwithValidUsernameandInvalidPassword status=SUCCESS method=LoginTest.verifyLoginwithValidUsernameandInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyLoginwithInvalidUsernameandValidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d]" started-at="2023-03-05T20:27:32 AST" name="verifyLoginwithInvalidUsernameandValidPassword" finished-at="2023-03-05T20:27:35 AST" duration-ms="3463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuto123@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithInvalidUsernameandValidPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d]" started-at="2023-03-05T20:27:35 AST" name="afterMethod" finished-at="2023-03-05T20:27:37 AST" duration-ms="1208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginwithInvalidUsernameandValidPassword status=SUCCESS method=LoginTest.verifyLoginwithInvalidUsernameandValidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyLoginwithInvalidUsernameandInvalidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d]" started-at="2023-03-05T20:27:37 AST" name="verifyLoginwithInvalidUsernameandInvalidPassword" finished-at="2023-03-05T20:27:45 AST" duration-ms="8676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuto123@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tuto123@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithInvalidUsernameandInvalidPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d]" started-at="2023-03-05T20:27:45 AST" name="afterMethod" finished-at="2023-03-05T20:27:46 AST" duration-ms="1188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginwithInvalidUsernameandInvalidPassword status=SUCCESS method=LoginTest.verifyLoginwithInvalidUsernameandInvalidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyLoginwithValidUsernameandValidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d]" started-at="2023-03-05T20:27:46 AST" name="verifyLoginwithValidUsernameandValidPassword" finished-at="2023-03-05T20:27:49 AST" duration-ms="2824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithValidUsernameandValidPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d]" started-at="2023-03-05T20:27:49 AST" name="afterMethod" finished-at="2023-03-05T20:27:50 AST" duration-ms="941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginwithValidUsernameandValidPassword status=SUCCESS method=LoginTest.verifyLoginwithValidUsernameandValidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="flight()[pri:4, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d]" started-at="2023-03-05T20:27:50 AST" name="flight" finished-at="2023-03-05T20:28:00 AST" duration-ms="9817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d]" started-at="2023-03-05T20:28:00 AST" name="afterMethod" finished-at="2023-03-05T20:28:01 AST" duration-ms="824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flight status=SUCCESS method=FlightTest.flight()[pri:4, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@45e9b12d]" started-at="2023-03-05T20:28:01 AST" name="afterTest" finished-at="2023-03-05T20:28:01 AST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-03-05T20:28:01 AST" name="EdgeTest" finished-at="2023-03-05T20:28:37 AST" duration-ms="35744">
+      <class name="com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc]" started-at="2023-03-05T20:28:01 AST" name="beforeTest" finished-at="2023-03-05T20:28:15 AST" duration-ms="13887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="verifyLoginwithValidUsernameandInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc]" started-at="2023-03-05T20:28:15 AST" name="verifyLoginwithValidUsernameandInvalidPassword" finished-at="2023-03-05T20:28:18 AST" duration-ms="2849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tuto123@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithValidUsernameandInvalidPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc]" started-at="2023-03-05T20:28:18 AST" name="afterMethod" finished-at="2023-03-05T20:28:19 AST" duration-ms="1174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginwithValidUsernameandInvalidPassword status=SUCCESS method=LoginTest.verifyLoginwithValidUsernameandInvalidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyLoginwithInvalidUsernameandValidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc]" started-at="2023-03-05T20:28:19 AST" name="verifyLoginwithInvalidUsernameandValidPassword" finished-at="2023-03-05T20:28:23 AST" duration-ms="3431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuto123@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithInvalidUsernameandValidPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc]" started-at="2023-03-05T20:28:23 AST" name="afterMethod" finished-at="2023-03-05T20:28:23 AST" duration-ms="755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginwithInvalidUsernameandValidPassword status=SUCCESS method=LoginTest.verifyLoginwithInvalidUsernameandValidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyLoginwithInvalidUsernameandInvalidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc]" started-at="2023-03-05T20:28:23 AST" name="verifyLoginwithInvalidUsernameandInvalidPassword" finished-at="2023-03-05T20:28:26 AST" duration-ms="2752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuto123@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tuto123@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithInvalidUsernameandInvalidPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc]" started-at="2023-03-05T20:28:26 AST" name="afterMethod" finished-at="2023-03-05T20:28:27 AST" duration-ms="929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginwithInvalidUsernameandInvalidPassword status=SUCCESS method=LoginTest.verifyLoginwithInvalidUsernameandInvalidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyLoginwithValidUsernameandValidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc]" started-at="2023-03-05T20:28:27 AST" name="verifyLoginwithValidUsernameandValidPassword" finished-at="2023-03-05T20:28:30 AST" duration-ms="2913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginwithValidUsernameandValidPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc]" started-at="2023-03-05T20:28:30 AST" name="afterMethod" finished-at="2023-03-05T20:28:31 AST" duration-ms="890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginwithValidUsernameandValidPassword status=SUCCESS method=LoginTest.verifyLoginwithValidUsernameandValidPassword(java.lang.String,java.lang.String)[pri:3, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="flight()[pri:4, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc]" started-at="2023-03-05T20:28:31 AST" name="flight" finished-at="2023-03-05T20:28:36 AST" duration-ms="5113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flight -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc]" started-at="2023-03-05T20:28:36 AST" name="afterMethod" finished-at="2023-03-05T20:28:37 AST" duration-ms="619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flight status=SUCCESS method=FlightTest.flight()[pri:4, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest@7523a3dc]" started-at="2023-03-05T20:28:37 AST" name="afterTest" finished-at="2023-03-05T20:28:37 AST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

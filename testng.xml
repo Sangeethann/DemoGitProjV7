@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="ChromeTest">
+  <parameter name="browsers" value="chrome"></parameter>
+  <parameter name="validusername" value="tutorial"></parameter>
+  <parameter name="validpassword" value="tutorial"></parameter>
+  <parameter name="invalidusername" value="tuto123@"></parameter>
+  <parameter name="invalidpassword" value="tuto123@"></parameter>
+    <classes>
+      <class name="com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="EdgeTest">
+  <parameter name="browsers" value="edge"></parameter>
+  <parameter name="validusername" value="tutorial"></parameter>
+  <parameter name="validpassword" value="tutorial"></parameter>
+  <parameter name="invalidusername" value="tuto123@"></parameter>
+  <parameter name="invalidpassword" value="tuto123@"></parameter>
+    <classes>
+      <class name="com.pomwithpagefactoryusingparametersnew.Scripts.FlightTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
